@@ -1796,8 +1796,6 @@ function goTo(n){
   document.querySelectorAll('.proto-info-icon').forEach(icon => {
     icon.classList.toggle('is-shown', parseInt(icon.dataset.infoStep) === n);
   });
-
-  window.scrollTo({top:0, behavior:'smooth'});
 }
 
 </script>
